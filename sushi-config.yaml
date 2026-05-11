@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hello.fhir
-canonical: http://example.org/fhir/r4/hello
-name: HelloFHIR
+id: luxottica-eyewear-ig
+canonical: https://fhir.luxottica.com/eyewear
+name: Luxottica
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
