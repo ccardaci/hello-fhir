@@ -3,7 +3,7 @@ Luxottica : Validation Results
 
 err = 0, warn = 9, info = 2
 IG Publisher Version: 2.2.7
-Generated Mon May 11 13:46:21 UTC 2026. FHIR version 4.0.1 for luxottica-eyewear-ig#0.1.0 (canonical = https://fhir.luxottica.com/eyewear)
+Generated Mon May 11 13:58:07 UTC 2026. FHIR version 4.0.1 for luxottica-eyewear-ig#0.1.0 (canonical = https://fhir.luxottica.com/eyewear)
  Build Errors : 0 / 5 / 0
  /home/runner/work/hello-fhir/hello-fhir/fsh-generated/resources/CodeSystem-frame-styles : 0 / 2 / 2
  /home/runner/work/hello-fhir/hello-fhir/fsh-generated/resources/ImplementationGuide-luxottica-eyewear-ig : 0 / 0 / 1

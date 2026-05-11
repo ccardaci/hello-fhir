@@ -31,7 +31,7 @@ Other representations of profile: [CSV](../StructureDefinition-MyPatient.csv), [
   "version" : "0.1.0",
   "name" : "MyPatient",
   "status" : "draft",
-  "date" : "2026-05-11T13:45:36+00:00",
+  "date" : "2026-05-11T13:57:20+00:00",
   "publisher" : "Reply",
   "contact" : [{
     "name" : "Reply",
