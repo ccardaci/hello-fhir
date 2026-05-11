@@ -1,0 +1,28 @@
+[{
+  "id" : "frame-styles",
+  "type" : "CodeSystem",
+  "url" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+  "version" : "0.1.0",
+  "name" : "FrameStyles"
+},
+{
+  "id" : "luxottica-eyewear-ig",
+  "type" : "ImplementationGuide",
+  "url" : "https://fhir.luxottica.com/eyewear/ImplementationGuide/luxottica-eyewear-ig",
+  "version" : "0.1.0",
+  "name" : "Luxottica"
+},
+{
+  "id" : "MyPatient",
+  "type" : "StructureDefinition",
+  "url" : "https://fhir.luxottica.com/eyewear/StructureDefinition/MyPatient",
+  "version" : "0.1.0",
+  "name" : "MyPatient"
+},
+{
+  "id" : "frame-styles-vs",
+  "type" : "ValueSet",
+  "url" : "https://fhir.luxottica.com/eyewear/ValueSet/frame-styles-vs",
+  "version" : "0.1.0",
+  "name" : "FrameStylesVS"
+}]

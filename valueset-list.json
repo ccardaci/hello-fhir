@@ -1,0 +1,11 @@
+{
+  "codeSystems" : [{
+    "url" : "https://fhir.luxottica.com/eyewear/ValueSet/frame-styles-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FrameStylesVS",
+    "title" : "Eyewear Frame Styles ValueSet",
+    "description" : "",
+    "systems" : ["https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles"]
+  }]
+}

@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [{
+    "url" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FrameStyles",
+    "title" : "Eyewear Frame Styles",
+    "description" : "Frame style classification used in Luxottica stores.",
+    "uses" : {
+    },
+    "ValueSet-frame-styles-vs.html" : "Eyewear Frame Styles ValueSet"
+  }]
+}

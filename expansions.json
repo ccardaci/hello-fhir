@@ -1,0 +1,142 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "f48e75e0-53b3-4175-85e9-922ac8d9d737",
+  "meta" : {
+    "lastUpdated" : "2026-05-11T13:45:36.787+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://fhir.luxottica.com/eyewear/ValueSet/frame-styles-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-frame-styles.html\">codesystem Eyewear Frame Styles v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-aviator\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-aviator\">aviator</a></td><td>Aviator</td><td>Teardrop-shaped lenses, thin metal frame.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;aviator&quot;, &quot;display&quot;: &quot;Aviator&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;aviator&quot;&gt;&lt;display value=&quot;Aviator&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-cat-eye\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-cat-eye\">cat-eye</a></td><td>Cat-eye</td><td>Upswept outer edges, vintage feminine look.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;cat-eye&quot;, &quot;display&quot;: &quot;Cat-eye&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;cat-eye&quot;&gt;&lt;display value=&quot;Cat-eye&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-round\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-round\">round</a></td><td>Round</td><td>Circular lenses, classic intellectual style.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;round&quot;, &quot;display&quot;: &quot;Round&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;round&quot;&gt;&lt;display value=&quot;Round&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-square\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-square\">square</a></td><td>Square</td><td>Bold rectangular shape, structured look.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;square&quot;, &quot;display&quot;: &quot;Square&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;square&quot;&gt;&lt;display value=&quot;Square&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-wayfarer\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-wayfarer\">wayfarer</a></td><td>Wayfarer</td><td>Trapezoidal frame, iconic Luxottica heritage.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;wayfarer&quot;, &quot;display&quot;: &quot;Wayfarer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;wayfarer&quot;&gt;&lt;display value=&quot;Wayfarer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://fhir.luxottica.com/eyewear/ValueSet/frame-styles-vs",
+      "version" : "0.1.0",
+      "name" : "FrameStylesVS",
+      "title" : "Eyewear Frame Styles ValueSet",
+      "status" : "draft",
+      "date" : "2026-05-11T13:45:36+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:566f0ca9-a778-4609-92ef-3140218bbb67",
+        "timestamp" : "2026-05-11T13:46:13+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "aviator",
+          "display" : "Aviator"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "cat-eye",
+          "display" : "Cat-eye"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "round",
+          "display" : "Round"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "square",
+          "display" : "Square"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "wayfarer",
+          "display" : "Wayfarer"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://fhir.luxottica.com/eyewear/ValueSet/frame-styles-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-frame-styles.html\">codesystem Eyewear Frame Styles v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-aviator\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-aviator\">aviator</a></td><td>Aviator</td><td>Teardrop-shaped lenses, thin metal frame.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;aviator&quot;, &quot;display&quot;: &quot;Aviator&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;aviator&quot;&gt;&lt;display value=&quot;Aviator&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-cat-eye\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-cat-eye\">cat-eye</a></td><td>Cat-eye</td><td>Upswept outer edges, vintage feminine look.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;cat-eye&quot;, &quot;display&quot;: &quot;Cat-eye&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;cat-eye&quot;&gt;&lt;display value=&quot;Cat-eye&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-round\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-round\">round</a></td><td>Round</td><td>Circular lenses, classic intellectual style.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;round&quot;, &quot;display&quot;: &quot;Round&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;round&quot;&gt;&lt;display value=&quot;Round&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-square\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-square\">square</a></td><td>Square</td><td>Bold rectangular shape, structured look.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;square&quot;, &quot;display&quot;: &quot;Square&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;square&quot;&gt;&lt;display value=&quot;Square&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles-wayfarer\"> </a><code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-frame-styles.html#frame-styles-wayfarer\">wayfarer</a></td><td>Wayfarer</td><td>Trapezoidal frame, iconic Luxottica heritage.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;wayfarer&quot;, &quot;display&quot;: &quot;Wayfarer&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;wayfarer&quot;&gt;&lt;display value=&quot;Wayfarer&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://fhir.luxottica.com/eyewear/ValueSet/frame-styles-vs",
+      "version" : "0.1.0",
+      "name" : "FrameStylesVS",
+      "title" : "Eyewear Frame Styles ValueSet",
+      "status" : "draft",
+      "date" : "2026-05-11T13:45:36+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:566f0ca9-a778-4609-92ef-3140218bbb67",
+        "timestamp" : "2026-05-11T13:46:13+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "aviator",
+          "display" : "Aviator"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "cat-eye",
+          "display" : "Cat-eye"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "round",
+          "display" : "Round"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "square",
+          "display" : "Square"
+        },
+        {
+          "system" : "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles",
+          "code" : "wayfarer",
+          "display" : "Wayfarer"
+        }]
+      }
+    }
+  }]
+}

@@ -1,0 +1,30 @@
+Luxottica : Validation Results
+=========================================
+
+err = 0, warn = 9, info = 2
+$--
+Generated $--. FHIR version $-- for luxottica-eyewear-ig#$-- (canonical = https://fhir.luxottica.com/eyewear)
+ Build Errors : 0 / 5 / 0
+ /home/runner/work/hello-fhir/hello-fhir/fsh-generated/resources/CodeSystem-frame-styles : 0 / 2 / 2
+ /home/runner/work/hello-fhir/hello-fhir/fsh-generated/resources/ImplementationGuide-luxottica-eyewear-ig : 0 / 0 / 1
+ /home/runner/work/hello-fhir/hello-fhir/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
+ /home/runner/work/hello-fhir/hello-fhir/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
+ /home/runner/work/hello-fhir/hello-fhir/fsh-generated/resources/ValueSet-frame-styles-vs : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/frame-styles-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-frame-styles.json ==
+INFORMATION: CodeSystem/frame-styles: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/frame-styles: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/frame-styles: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-luxottica-eyewear-ig.json ==
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated/resources/ValueSet-frame-styles-vs.json ==
+WARNING: ValueSet/frame-styles-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/frame-styles-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present

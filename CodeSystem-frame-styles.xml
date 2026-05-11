@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="frame-styles"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem frame-styles</b></p><a name="frame-styles"> </a><a name="hcframe-styles"> </a><p>This  code system <code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">aviator<a name="frame-styles-aviator"> </a></td><td>Aviator</td><td>Teardrop-shaped lenses, thin metal frame.</td></tr><tr><td style="white-space:nowrap">cat-eye<a name="frame-styles-cat-eye"> </a></td><td>Cat-eye</td><td>Upswept outer edges, vintage feminine look.</td></tr><tr><td style="white-space:nowrap">round<a name="frame-styles-round"> </a></td><td>Round</td><td>Circular lenses, classic intellectual style.</td></tr><tr><td style="white-space:nowrap">square<a name="frame-styles-square"> </a></td><td>Square</td><td>Bold rectangular shape, structured look.</td></tr><tr><td style="white-space:nowrap">wayfarer<a name="frame-styles-wayfarer"> </a></td><td>Wayfarer</td><td>Trapezoidal frame, iconic Luxottica heritage.</td></tr></table></div>
+  </text>
+  <url value="https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles"/>
+  <version value="0.1.0"/>
+  <name value="FrameStyles"/>
+  <title value="Eyewear Frame Styles"/>
+  <status value="draft"/>
+  <date value="2026-05-11T13:45:36+00:00"/>
+  <publisher value="Reply"/>
+  <contact>
+    <name value="Reply"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://reply.com"/>
+    </telecom>
+  </contact>
+  <description value="Frame style classification used in Luxottica stores."/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="aviator"/>
+    <display value="Aviator"/>
+    <definition value="Teardrop-shaped lenses, thin metal frame."/>
+  </concept>
+  <concept>
+    <code value="cat-eye"/>
+    <display value="Cat-eye"/>
+    <definition value="Upswept outer edges, vintage feminine look."/>
+  </concept>
+  <concept>
+    <code value="round"/>
+    <display value="Round"/>
+    <definition value="Circular lenses, classic intellectual style."/>
+  </concept>
+  <concept>
+    <code value="square"/>
+    <display value="Square"/>
+    <definition value="Bold rectangular shape, structured look."/>
+  </concept>
+  <concept>
+    <code value="wayfarer"/>
+    <display value="Wayfarer"/>
+    <definition value="Trapezoidal frame, iconic Luxottica heritage."/>
+  </concept>
+</CodeSystem>

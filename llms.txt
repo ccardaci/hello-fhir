@@ -1,0 +1,28 @@
+# luxottica-eyewear-ig#0.1.0: null(en)
+
+## Pages
+
+* [Home](en/index.md)
+* [Artifacts Summary](en/artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Eyewear Frame Styles](en/CodeSystem-frame-styles.md)
+
+### ValueSets
+
+* [Eyewear Frame Styles ValueSet](en/ValueSet-frame-styles-vs.md)
+
+### Resource Profiles
+
+* [MyPatient](en/StructureDefinition-MyPatient.md)
+
+### ImplementationGuides
+
+* [Luxottica](en/ImplementationGuide-luxottica-eyewear-ig.md)
+
+### Examples
+
+* [PatientExample (Patient)](en/Patient-PatientExample.md)

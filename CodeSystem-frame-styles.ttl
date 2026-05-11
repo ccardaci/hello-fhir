@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "frame-styles"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem frame-styles</b></p><a name=\"frame-styles\"> </a><a name=\"hcframe-styles\"> </a><p>This  code system <code>https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">aviator<a name=\"frame-styles-aviator\"> </a></td><td>Aviator</td><td>Teardrop-shaped lenses, thin metal frame.</td></tr><tr><td style=\"white-space:nowrap\">cat-eye<a name=\"frame-styles-cat-eye\"> </a></td><td>Cat-eye</td><td>Upswept outer edges, vintage feminine look.</td></tr><tr><td style=\"white-space:nowrap\">round<a name=\"frame-styles-round\"> </a></td><td>Round</td><td>Circular lenses, classic intellectual style.</td></tr><tr><td style=\"white-space:nowrap\">square<a name=\"frame-styles-square\"> </a></td><td>Square</td><td>Bold rectangular shape, structured look.</td></tr><tr><td style=\"white-space:nowrap\">wayfarer<a name=\"frame-styles-wayfarer\"> </a></td><td>Wayfarer</td><td>Trapezoidal frame, iconic Luxottica heritage.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles"^^xsd:anyURI ;
+     fhir:l <https://fhir.luxottica.com/eyewear/CodeSystem/frame-styles>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "FrameStyles"] ; # 
+  fhir:title [ fhir:v "Eyewear Frame Styles"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-05-11T13:45:36+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Reply"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Reply" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://reply.com" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Frame style classification used in Luxottica stores."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "aviator" ] ;
+     fhir:display [ fhir:v "Aviator" ] ;
+     fhir:definition [ fhir:v "Teardrop-shaped lenses, thin metal frame." ]
+  ] [
+     fhir:code [ fhir:v "cat-eye" ] ;
+     fhir:display [ fhir:v "Cat-eye" ] ;
+     fhir:definition [ fhir:v "Upswept outer edges, vintage feminine look." ]
+  ] [
+     fhir:code [ fhir:v "round" ] ;
+     fhir:display [ fhir:v "Round" ] ;
+     fhir:definition [ fhir:v "Circular lenses, classic intellectual style." ]
+  ] [
+     fhir:code [ fhir:v "square" ] ;
+     fhir:display [ fhir:v "Square" ] ;
+     fhir:definition [ fhir:v "Bold rectangular shape, structured look." ]
+  ] [
+     fhir:code [ fhir:v "wayfarer" ] ;
+     fhir:display [ fhir:v "Wayfarer" ] ;
+     fhir:definition [ fhir:v "Trapezoidal frame, iconic Luxottica heritage." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
